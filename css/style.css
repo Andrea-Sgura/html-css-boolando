@@ -58,6 +58,7 @@ main{
 
 .card{
     width: 100%;
+    position: relative;
 }
 
 .card img{
@@ -74,4 +75,21 @@ main{
 
 .price{
     color: red;
+}
+
+.label{
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.fa-solid.fa-heart{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
