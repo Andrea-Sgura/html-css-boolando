@@ -9,15 +9,21 @@ header{
     background-color: orange;
     color: #fff;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
 }
 
-.container{
+main{
+    padding-top: 100px;
+}
+
+.container-header{
     max-width: 900px;
     margin: 0 auto;
     display: flex;
 }
 
-.side-col{
+.left-col{
     width: 25%;
     height: 25px;
 }
@@ -26,4 +32,45 @@ header{
     width: 50%;
     height: 25px;
     text-align: center;
+}
+
+.right-col{
+    width: 25%;
+    height: 25px;
+    text-align: right;
+}
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.bg-silver{
+    background-color: silver;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+.h-800{
+    height: 800px;
+}
+
+.col-33{
+    width: 33%;
 }
