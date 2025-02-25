@@ -51,26 +51,27 @@ main{
     justify-content: space-between;
 }
 
-.h-300{
-    height: 300px;
-}
-
-.bg-silver{
-    background-color: silver;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.border-black{
-    border: 1px solid black;
-}
-
-.h-800{
-    height: 800px;
-}
-
 .col-33{
     width: 33%;
+    padding-bottom: 50px;
+}
+
+.card{
+    width: 100%;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.product{
+    text-transform: uppercase;
+}
+
+.price{
+    color: red;
 }
