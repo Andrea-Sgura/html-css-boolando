@@ -117,3 +117,34 @@ main{
     height: 25px;
     text-align: end;
 }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-size: 50px;
+    opacity: 0;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+}
+
+.card:hover .front{
+    display: none;
+}
+
+.card:hover .back{
+    display: block;
+}
+
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
